@@ -28,6 +28,7 @@
 				printf( __( 'Proudly powered by %s.', 'twentynineteen' ), 'WordPress' );
 				?>
 			</a>
+				<p>Proudly powered by WP Engine!</p>
 			<?php
 			if ( function_exists( 'the_privacy_policy_link' ) ) {
 				the_privacy_policy_link( '', '<span role="separator" aria-hidden="true"></span>' );
